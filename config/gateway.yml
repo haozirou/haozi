@@ -6,6 +6,10 @@ spring:
   profiles:
     active: dev
 zuul:
+  routes:
+    api-test:
+      path: /api/clientTest/**
+      serviceId: test
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
