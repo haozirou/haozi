@@ -10,6 +10,9 @@ zuul:
     api-test:
       path: /api/clientTest/**
       serviceId: test
+    api-blog:
+      path: /api/blog/**
+      serviceId: blog
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
