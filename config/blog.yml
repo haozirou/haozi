@@ -5,3 +5,6 @@ spring:
     name: blog
   profiles:
     active: dev
+ribbon:
+  eureka:
+    enabled: true
