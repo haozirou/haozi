@@ -13,6 +13,9 @@ zuul:
     api-blog:
       path: /api/blog/**
       serviceId: blog
+    api-tools:
+      path: /api/tools/**
+      serviceId: tools
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
