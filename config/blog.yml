@@ -8,3 +8,6 @@ spring:
 ribbon:
   eureka:
     enabled: true
+feign:
+  httpclient:
+    enabled: true
