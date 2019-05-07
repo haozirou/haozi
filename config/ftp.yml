@@ -3,6 +3,6 @@ ftp:
   port: 21
   username: ftp
   password: 123456
-imgServer:
+fileserver:
   address: 192.168.0.7
   port: 8008
