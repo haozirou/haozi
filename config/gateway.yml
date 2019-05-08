@@ -16,6 +16,9 @@ zuul:
     api-tools:
       path: /api/tools/**
       serviceId: tools
+    api-user:
+      path: /api/user/**
+      serviceId: user
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
