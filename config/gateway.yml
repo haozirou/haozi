@@ -7,23 +7,18 @@ spring:
     active: dev
 zuul:
   routes:
-    api-test:
-      path: /api/clientTest/**
-      serviceId: test
     api-blog:
-      path: /api/blog/**
+      path: /blog/**
       serviceId: blog
     api-tools:
-      path: /api/tools/**
+      path: /tools/**
       serviceId: tools
     api-user:
-      path: /api/user/**
+      path: /user/**
       serviceId: user
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
-  semaphore:
-        max-semaphores: 200
 hystrix:
   command:
     default:
